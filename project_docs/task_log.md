@@ -258,4 +258,4 @@
 - 更新 `README.md` 与 `project_docs/deploy_check_report.md`，说明 Pages 发布路径和手动启用方式。
 - 推送提交 `5da9376` 到 GitHub `main` 分支。
 - 通过 GitHub API 确认 Pages 已启用，来源为 `main` / `/docs`，状态为 `built`。
-- 确认在线地址 `https://wduan1212-rgb.github.io/Dragon/` 可打开到 Ren'Py Web 页面。
+- 通过 GitHub Pages API 确认在线地址为 `https://wduan1212-rgb.github.io/Dragon/`，当前状态为 `built`。
