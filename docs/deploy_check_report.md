@@ -8,7 +8,7 @@
 |---|---|
 | 本地 Git 仓库 | 已初始化 |
 | 远程仓库 | `https://github.com/wduan1212-rgb/Dragon.git` |
-| 本地源码提交 | 已创建：`ac2dcb7 Initial Dragon Pact RenPy demo`、`86a3b3b Add deployment preparation report`、`794df3e Update deployment report with push status` |
+| 本地源码提交 | 已创建并推送源码与部署报告提交 |
 | push 到 GitHub | 已成功 |
 
 push 结果说明：
@@ -16,7 +16,7 @@ push 结果说明：
 - 第一次 push 失败：`Error in the HTTP2 framing layer`。
 - 第二次 push 使用 HTTP/1.1 后失败：`HTTP 408`、`remote end hung up unexpectedly`。
 - 随后的 `git ls-remote` 也因无法连接 GitHub 失败：`Failed to connect to github.com port 443`。
-- 第三次执行 `git gc` 后重新 push 成功，随后推送报告修正；当前远端 `main` 指向 `794df3e`。
+- 第三次执行 `git gc` 后重新 push 成功，随后报告修正也已推送到远端 `main`。
 - 当前判断：源码仓库已成功上传，前两次失败是网络/HTTPS 连接不稳定导致。
 
 ## 2. Web/HTML5 构建状态
