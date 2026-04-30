@@ -17,11 +17,11 @@ v0.1.0 Demo
 
 ## GitHub Pages 在线试玩
 
-当前自动 Web/HTML5 构建暂未完成，网页版暂未开放。修复并成功生成 Web 版本后，可在 GitHub 仓库 Settings → Pages 中选择 `main` 分支 `/docs` 目录发布，在线地址通常为：
+当前 Web/HTML5 构建产物已整理到 `docs/` 目录，可使用 GitHub Pages 从 `main` 分支 `/docs` 发布。发布地址为：
 
 https://wduan1212-rgb.github.io/Dragon/
 
-如果该地址暂时无法打开，说明 GitHub Pages 尚未启用、部署尚未完成，或当前版本仍未上传 Web 构建产物。
+如果该地址暂时无法打开，请在 GitHub 仓库 Settings → Pages 中确认 Source 为 `Deploy from a branch`，Branch 为 `main`，Folder 为 `/docs`。首次启用后通常需要等待 1-3 分钟生效。
 
 ## 素材说明
 
@@ -32,3 +32,4 @@ https://wduan1212-rgb.github.io/Dragon/
 - 正式运行素材保存在 `game/images/`、`game/audio/`、`game/fonts/` 与部分 `game/videos/` 目录中。
 - `game/cache/`、`*.rpyc`、存档、构建缓存与超大参考素材不会提交到 GitHub。
 - 已禁用的过场动画和最终 CG 不会在当前剧情流程中自动播放。
+- 开发过程报告已移到 `project_docs/`，`docs/` 专用于 GitHub Pages Web 构建产物。
