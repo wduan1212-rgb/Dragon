@@ -14,6 +14,7 @@ releases/
 log.txt
 trace.txt
 errors.txt
+progressive_download.txt
 
 # Local review, inbox, and backup material.
 raw_assets_backup/

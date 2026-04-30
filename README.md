@@ -17,11 +17,11 @@ v0.1.0 Demo
 
 ## GitHub Pages 在线试玩
 
-若 Web/HTML5 构建成功，并在 GitHub 仓库 Settings → Pages 中选择 `main` 分支 `/docs` 目录发布，在线地址通常为：
+当前自动 Web/HTML5 构建暂未完成，网页版暂未开放。修复并成功生成 Web 版本后，可在 GitHub 仓库 Settings → Pages 中选择 `main` 分支 `/docs` 目录发布，在线地址通常为：
 
 https://wduan1212-rgb.github.io/Dragon/
 
-如果该地址暂时无法打开，说明 GitHub Pages 尚未启用、部署尚未完成，或当前版本暂未开放网页版。
+如果该地址暂时无法打开，说明 GitHub Pages 尚未启用、部署尚未完成，或当前版本仍未上传 Web 构建产物。
 
 ## 素材说明
 
