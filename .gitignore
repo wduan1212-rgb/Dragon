@@ -1,0 +1,26 @@
+game/cache/
+game/saves/
+*.rpyc
+*.rpa~
+*.log
+*.tmp
+.DS_Store
+__pycache__/
+dist/
+releases/
+*-dists/
+*.bak
+*.old
+log.txt
+trace.txt
+errors.txt
+
+# Local review, inbox, and backup material.
+raw_assets_backup/
+raw_inbox/
+review_needed/
+
+# Large disabled/reference assets kept locally.
+game/videos/ending_cg/
+game/audio/source_voice/
+game/audio/voice_candidates/
