@@ -11,12 +11,16 @@
 | 当前分支 | `main` |
 | 源码上传 | 已成功 push |
 | Web 发布提交 | 已随本报告所在提交推送 |
+| GitHub Pages | 已启用 |
+| Pages 状态 | `built` |
+| Pages 来源 | `main` / `/docs` |
 
 说明：
 
 - 源码已经上传到 GitHub `main` 分支。
 - 前期 push 曾遇到网络/HTTPS 连接不稳定，后续重试已成功。
-- 本轮将提交 `docs/` Web 构建产物，用于 GitHub Pages 从 `/docs` 发布。
+- 已提交并推送 `docs/` Web 构建产物，用于 GitHub Pages 从 `/docs` 发布。
+- GitHub Pages API 已确认 `html_url` 为 `https://wduan1212-rgb.github.io/Dragon/`，状态为 `built`。
 
 ## 2. Web/HTML5 构建状态
 
@@ -96,24 +100,20 @@
 - 图片素材较多，首次加载仍可能偏慢。后续可继续压缩 PNG/JPG 或微调 progressive download 策略。
 - 音频文件较多但未发现单个超限文件；如网页加载慢，可优先压缩 BGM 与 SFX。
 
-## 8. GitHub Pages 建议
+## 8. GitHub Pages 状态
 
-建议开启 GitHub Pages：
+已完成以下设置：
 
-1. 打开 GitHub 仓库页面。
-2. 进入 Settings。
-3. 点击 Pages。
-4. Source 选择 `Deploy from a branch`。
-5. Branch 选择 `main`。
-6. Folder 选择 `/docs`。
-7. 点击 Save。
-8. 等待 1-3 分钟。
-9. 打开 `https://wduan1212-rgb.github.io/Dragon/`。
+1. Source 为 `Deploy from a branch`。
+2. Branch 为 `main`。
+3. Folder 为 `/docs`。
+4. Pages API 状态为 `built`。
+5. 发布地址为 `https://wduan1212-rgb.github.io/Dragon/`。
 
-本机环境未安装 `gh`，且没有可用的 GitHub Pages API 认证工具，因此 Pages 开关可能需要在 GitHub 网页中手动启用。
+本机环境未安装 `gh`，但已使用本机 Git 凭据通过 GitHub API 确认 Pages 设置。
 
 ## 9. 下一步建议
 
-- 本轮提交并 push 后，优先在 GitHub 仓库 Settings → Pages 打开 `/docs` 发布。
+- 打开 `https://wduan1212-rgb.github.io/Dragon/` 进行浏览器实机试玩。
 - 如果网页首次打开较慢，优先检查浏览器控制台中是否有资源 404 或音频加载失败。
 - 桌面发行版 zip 不建议提交到 `main` 分支，后续应通过 GitHub Release 上传。

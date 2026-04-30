@@ -17,11 +17,11 @@ v0.1.0 Demo
 
 ## GitHub Pages 在线试玩
 
-当前 Web/HTML5 构建产物已整理到 `docs/` 目录，可使用 GitHub Pages 从 `main` 分支 `/docs` 发布。发布地址为：
+当前 Web/HTML5 构建产物已整理到 `docs/` 目录，并已使用 GitHub Pages 从 `main` 分支 `/docs` 发布。发布地址为：
 
 https://wduan1212-rgb.github.io/Dragon/
 
-如果该地址暂时无法打开，请在 GitHub 仓库 Settings → Pages 中确认 Source 为 `Deploy from a branch`，Branch 为 `main`，Folder 为 `/docs`。首次启用后通常需要等待 1-3 分钟生效。
+如果该地址暂时无法打开，请稍等几分钟后刷新，或在 GitHub 仓库 Settings → Pages 中确认 Source 为 `Deploy from a branch`，Branch 为 `main`，Folder 为 `/docs`。
 
 ## 素材说明
 
